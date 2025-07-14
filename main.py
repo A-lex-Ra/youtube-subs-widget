@@ -1,7 +1,7 @@
 from googleapiclient.discovery import build
-from keys import api_key
+from keys import yt_api_key
 
-youtube = build("youtube", "v3", developerKey=api_key)
+youtube = build("youtube", "v3", developerKey=yt_api_key)
 
 class SubsCount:
     @staticmethod
